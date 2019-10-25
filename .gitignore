@@ -65,3 +65,4 @@ fastlane/screenshots
 examples/.DS_Store
 examples/Sample/.DS_Store
 examples/Sample/Pods
+xcshareddata
