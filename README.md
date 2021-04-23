@@ -4,6 +4,14 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 # FileBrowser
+
+⚠️ This project has been forked multiple times
+reason to fork it onemoretime is to add SPM support
+
+
+## Original Message
+
+
 iOS Finder-style file browser in Swift 4.0 with search, file previews and 3D touch. Simple and quick to use.
 
 <p align="center"><img src="http://i.giphy.com/3o6gaY6yLQkhjiok5W.gif" width="242" height="425"/></p>

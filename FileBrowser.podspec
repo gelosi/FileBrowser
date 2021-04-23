@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
                       A Swift file browser for iOS. Supports QuickLook, search and 3D touch.
+                      Originally developed by [Roy Marmelstein](https://github.com/marmelroy/FileBrowser)
+                      Support for SPM added by Oleg Shanyuk
                      DESC
 
-  s.homepage         = "https://github.com/marmelroy/FileBrowser"
+  s.homepage         = "https://github.com/gelosi/FileBrowser"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
-  s.source           = { :git => "https://github.com/marmelroy/FileBrowser.git", :tag => s.version.to_s, :submodules => true}
+  s.authors          = { "Roy Marmelstein" => "marmelroy@gmail.com", "Oleg Shanyuk" => "gelosi@gmail.com" }
+  s.source           = { :git => "https://github.com/gelosi/FileBrowser.git", :tag => s.version.to_s, :submodules => true}
   s.social_media_url   = "http://twitter.com/marmelroy"
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
   s.requires_arc = true
 
-  s.source_files = "FileBrowser"
-  s.resources = "FileBrowser/Resources/*.*"
+  s.source_files = "Sources/FileBrowser/*.swift"
+  s.resources = "Sources/FileBrowser/Resources/*.*"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -6,6 +6,7 @@
 //  Copyright © 2016 Roy Marmelstein. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 /// FBFile is a class representing a file in FileBrowser
